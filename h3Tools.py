@@ -8,7 +8,7 @@ import h3
 import os
 
 drivers = {'CSV': 'CSV', 'SHAPEFILE':'ESRI Shapefile', 'FLATGEOBUF':'FlatGeobuf', 'GEOJSON':'GeoJSON', 
-        'GPKG': 'GPKG', 'GPX': 'GPX', 'SQLITE':'SQLite', 'TOPOJSON':'TopoJSON'}
+        'GPKG': 'GPKG', 'SQLITE':'SQLite', 'TOPOJSON':'TopoJSON'}
 
 def geoConvertor(fileName: str, outFormat: str, raster: bool, h3Input: bool):
     # concept for format conversions
