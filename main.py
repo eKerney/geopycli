@@ -21,11 +21,12 @@ def printStuff(info: str = typer.Argument(...)):
 def convert(filename: str = typer.Argument(...), outformat: str = typer.Argument(...), 
             raster: bool = False, h3input: bool = False):
     """
-    Convert from existing GeoData format to specified output format
-    outformat options = ['geojson', 'gpkg', 'shapefile', 'csv', 'gpx', 'flatgeobuf', 'topojson']
+    Convert from existing GeoData format to specified output format - 
+    Outformat options = ['geojson', 'gpkg', 'shapefile', 'flatgeobuf'] - 
+    Point geometry only supported for GPX - 
     Upper or lowercase
     """
-    geoConvertor(fileName=filename, outFormat=outformat, raster=raster, h3Input=h3)
+    geoConvertor(fileName=filename, outFormat=outformat, raster=raster, h3Input=h3input)
 
 @app.command()
 def map(filename: str = typer.Argument(...), zoom: int=12, basemap: str = ''):

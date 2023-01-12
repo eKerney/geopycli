@@ -1,7 +1,7 @@
 from os import error
 import folium
 import webbrowser
-
+import geopandas as gpd
 from typer import style
 
 def foliumMap(filename: str, zoom: int, basemap: str):
@@ -17,14 +17,14 @@ def foliumMap(filename: str, zoom: int, basemap: str):
         # add GeoJSON layer to map
         def geoStyle(feature):
             return {
-                "fillOpacity": 0.4,
-                "weight": 0.5,
+                "fillOpacity": 0.3,
+                "weight": 1.0,
                 "fillColor": '#851bc2',
-                "color": '#f8edff'
+                "color": '#3a296e'
         }
         # geoStyle = {'color': '#ff7800', 'weight': 5, 'opacity': 0.65}
         layer = folium.GeoJson(filename,name='geojson',tooltip=tooltip,style_function=geoStyle).add_to(m)
-    except error as e:
+    except KeyError as e:
         print(f'Cannot load layer {filename} - {e}')
     # fit map to layer bounds
     m.fit_bounds(m.get_bounds(), padding=(30, 30))

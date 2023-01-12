@@ -1,0 +1,440 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.81179335393642,
+          45.650961376465304,
+          450.18960000000004
+        ]
+      },
+      "properties": {
+        "styleUrl": "#105",
+        "styleHash": "7ed43a14",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 0  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.811793</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.650961</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1477.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>400.0</td></tr>"
+      },
+      "id": "104"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.80218429297801,
+          45.651293256693556,
+          497.4336
+        ]
+      },
+      "properties": {
+        "styleUrl": "#110",
+        "styleHash": "-2c5bdcfa",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 1  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.802184</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.651293</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1632.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>555.0</td></tr>"
+      },
+      "id": "109"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.79955503842889,
+          45.65424226345141,
+          477.012
+        ]
+      },
+      "properties": {
+        "styleUrl": "#115",
+        "styleHash": "6dcc1e97",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 2  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.799555</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.654242</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1565.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>488.0</td></tr>"
+      },
+      "id": "114"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.79610523764686,
+          45.65481245333695,
+          430.98720000000003
+        ]
+      },
+      "properties": {
+        "styleUrl": "#120",
+        "styleHash": "-3d63f877",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 3  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.796105</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.654812</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1414.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>337.0</td></tr>"
+      },
+      "id": "119"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.78523738167752,
+          45.65325561898761,
+          442.56960000000004
+        ]
+      },
+      "properties": {
+        "styleUrl": "#125",
+        "styleHash": "5cc4031a",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 4  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.785237</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.653256</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1452.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>375.0</td></tr>"
+      },
+      "id": "124"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.77488763851566,
+          45.6549645842351,
+          446.53200000000004
+        ]
+      },
+      "properties": {
+        "styleUrl": "#130",
+        "styleHash": "-4e6c13f4",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 5  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.774888</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.654965</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1465.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>388.0</td></tr>"
+      },
+      "id": "129"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.75816327623815,
+          45.65227674611945,
+          476.0976
+        ]
+      },
+      "properties": {
+        "styleUrl": "#135",
+        "styleHash": "4bbbe79d",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 6  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.758163</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.652277</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1562.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>485.0</td></tr>"
+      },
+      "id": "134"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.75068818623451,
+          45.65350932362831,
+          467.86800000000005
+        ]
+      },
+      "properties": {
+        "styleUrl": "#140",
+        "styleHash": "-5f742f71",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 7  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.750688</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.653509</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1535.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>458.0</td></tr>"
+      },
+      "id": "139"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.74251889703942,
+          45.66155985589003,
+          507.7968
+        ]
+      },
+      "properties": {
+        "styleUrl": "#145",
+        "styleHash": "3ab3cc20",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 8  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.742519</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.66156</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1666.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>589.0</td></tr>"
+      },
+      "id": "144"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.73834415722689,
+          45.67062770152517,
+          443.78880000000004
+        ]
+      },
+      "properties": {
+        "styleUrl": "#150",
+        "styleHash": "-707c4aee",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 9  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.738344</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.670628</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1456.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>379.0</td></tr>"
+      },
+      "id": "149"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.73499939558545,
+          45.67327356696179,
+          448.05600000000004
+        ]
+      },
+      "properties": {
+        "styleUrl": "#155",
+        "styleHash": "29abb0a3",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 10  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.734999</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.673274</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1470.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>393.0</td></tr>"
+      },
+      "id": "154"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.72494761472983,
+          45.67409034271399,
+          449.88480000000004
+        ]
+      },
+      "properties": {
+        "styleUrl": "#160",
+        "styleHash": "7e7b9995",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 11  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.724948</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.67409</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1476.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>399.0</td></tr>"
+      },
+      "id": "159"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.71730256847563,
+          45.67660523536527,
+          453.23760000000004
+        ]
+      },
+      "properties": {
+        "styleUrl": "#165",
+        "styleHash": "18a39526",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 12  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.717303</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.676605</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1487.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>410.0</td></tr>"
+      },
+      "id": "164"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.70859810318991,
+          45.674265986336366,
+          460.85760000000005
+        ]
+      },
+      "properties": {
+        "styleUrl": "#170",
+        "styleHash": "6d737e18",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 13  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.708598</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.674266</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1512.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>435.0</td></tr>"
+      },
+      "id": "169"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.6961396720206,
+          45.67338102306294,
+          464.51520000000005
+        ]
+      },
+      "properties": {
+        "styleUrl": "#175",
+        "styleHash": "79b79a9",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 14  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.69614</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.673381</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1524.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>447.0</td></tr>"
+      },
+      "id": "174"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.69403674251308,
+          45.67079380585848,
+          465.73440000000005
+        ]
+      },
+      "properties": {
+        "styleUrl": "#180",
+        "styleHash": "5c6b629b",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 15  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.694037</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.670794</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1528.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>451.0</td></tr>"
+      },
+      "id": "179"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.68990507577847,
+          45.669377781118186,
+          469.392
+        ]
+      },
+      "properties": {
+        "styleUrl": "#185",
+        "styleHash": "-96ca1d4",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 16  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.689905</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.669378</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1540.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>463.0</td></tr>"
+      },
+      "id": "184"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.69152600484699,
+          45.66701669701327,
+          477.6216
+        ]
+      },
+      "properties": {
+        "styleUrl": "#190",
+        "styleHash": "4b63471e",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 17  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.691526</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.667017</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1567.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>490.0</td></tr>"
+      },
+      "id": "189"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.68725874120815,
+          45.66520394536934,
+          480.9744
+        ]
+      },
+      "properties": {
+        "styleUrl": "#195",
+        "styleHash": "-1a74bd51",
+        "description": "<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;height:100px\"><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:14px;text-align:center;border-collapse:collapse;padding:3px 3px 3px 3px\"><tr style=\"line-height:125%text-align:center;font-weight:bold;background:#9CBCE2;\"><td>ID: 18  -  UNITS: ft</td></tr><table style=\"width:200px;border:1px solid black;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;border-spacing:0px; padding:3px 3px 3px 3px\"><tr style=\"line-height:110%\"><td>LON          </td><td></td><td>-118.687259</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>LAT          </td><td></td><td>45.665204</td></tr><tr style=\"line-height:110%\"><td>Flight Altitude </td><td></td><td>1578.0</td></tr><tr style=\"line-height:110%\" bgcolor=\"#D4E4F3\"><td>AGL          </td><td></td><td>400</td></tr><tr style=\"line-height:110%\"><td>Height Above Takeoff </td><td></td><td>501.0</td></tr>"
+      },
+      "id": "194"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.81179335393642,
+            45.650961376465304,
+            450.18960000000004
+          ],
+          [
+            -118.80218429297801,
+            45.651293256693556,
+            497.4336
+          ],
+          [
+            -118.79955503842889,
+            45.65424226345141,
+            477.012
+          ],
+          [
+            -118.79610523764686,
+            45.65481245333695,
+            430.98720000000003
+          ],
+          [
+            -118.78523738167752,
+            45.65325561898761,
+            442.56960000000004
+          ],
+          [
+            -118.77488763851566,
+            45.6549645842351,
+            446.53200000000004
+          ],
+          [
+            -118.75816327623815,
+            45.65227674611945,
+            476.0976
+          ],
+          [
+            -118.75068818623451,
+            45.65350932362831,
+            467.86800000000005
+          ],
+          [
+            -118.74251889703942,
+            45.66155985589003,
+            507.7968
+          ],
+          [
+            -118.73834415722689,
+            45.67062770152517,
+            443.78880000000004
+          ],
+          [
+            -118.73499939558545,
+            45.67327356696179,
+            448.05600000000004
+          ],
+          [
+            -118.72494761472983,
+            45.67409034271399,
+            449.88480000000004
+          ],
+          [
+            -118.71730256847563,
+            45.67660523536527,
+            453.23760000000004
+          ],
+          [
+            -118.70859810318991,
+            45.674265986336366,
+            460.85760000000005
+          ],
+          [
+            -118.6961396720206,
+            45.67338102306294,
+            464.51520000000005
+          ],
+          [
+            -118.69403674251308,
+            45.67079380585848,
+            465.73440000000005
+          ],
+          [
+            -118.68990507577847,
+            45.669377781118186,
+            469.392
+          ],
+          [
+            -118.69152600484699,
+            45.66701669701327,
+            477.6216
+          ],
+          [
+            -118.68725874120815,
+            45.66520394536934,
+            480.9744
+          ]
+        ]
+      },
+      "properties": {
+        "name": "PendletonRoutes0",
+        "styleUrl": "#200",
+        "styleHash": "12004d1d",
+        "stroke": "#0070ff",
+        "stroke-opacity": 1,
+        "stroke-width": 3
+      },
+      "id": "199"
+    }
+  ]
+}
