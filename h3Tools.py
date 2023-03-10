@@ -1,4 +1,3 @@
-from geopandas.io import file
 import pandas as pd
 import numpy as np
 import shapely
@@ -6,20 +5,17 @@ import geopandas as gpd
 import math
 import h3
 import os
+import json
 
 drivers = {'CSV': 'CSV', 'SHAPEFILE':'ESRI Shapefile', 'FLATGEOBUF':'FlatGeobuf', 'GEOJSON':'GeoJSON', 
-        'GPKG': 'GPKG', 'SQLITE':'SQLite', 'TOPOJSON':'TopoJSON', 'GPX':'GPX'}
+        'GPKG': 'GPKG', 'SQLITE':'SQLite', 'TOPOJSON':'TopoJSON', 'GPX':'GPX', 'H3': 'H3', 'FILEGDB':'FileGDB'}
 
-def geoConvertor(fileName: str, outFormat: str, raster: bool, h3Input: bool):
+def geoConvertor(fileName: str, outFormat: str, special: str, fields: str):
     outFormat=outFormat.upper()
     print(f'WORKING ON {fileName} to {outFormat}...')
-    if h3Input:
-        # if raster:
+    if special.upper() == 'H3INPUT':
         df = pd.DataFrame(pd.read_json(fileName, typ='series')).reset_index(level=0)
         df = df.set_axis(['h3_index', 'axisName'], axis=1)
-        # else:
-        #     df = pd.DataFrame(pd.read_json(fileName, typ='frame')).reset_index(drop=True)
-        #     df = df.drop(columns=['index'])
         # Initialize dataframe from set of indexes
         df_indexes = gpd.GeoDataFrame(df['h3_index'], columns=['h3_index'])
         # Get coordinate values defining the polygon
@@ -37,10 +33,27 @@ def geoConvertor(fileName: str, outFormat: str, raster: bool, h3Input: bool):
         gdf_hexes = gdf_hexes.merge(df, on='h3_index')
         gdf_hexes.reset_index(inplace=True, drop=True)
         gdf_hexes.to_file(f'{splitNames[0]}.{outFormat.lower()}', driver=drivers[outFormat])
+    elif special.upper() == 'GDBINPUT':
+        gdf = gpd.read_file(fileName, driver='FileGDB',layer=0)
+        gdf.to_file(f'{splitNames[0]}.{outFormat.lower()}', driver=drivers[outFormat])
     else:
         splitNames = fileName.split('.')
-        gdf = gpd.read_file(fileName)
-        gdf.to_file(f'{splitNames[0]}.{outFormat.lower()}', driver=drivers[outFormat])
+        if drivers[outFormat] == 'H3':
+            gdf = gpd.read_file(fileName).reset_index(drop=True)
+            gdf = gdf[[ fields[0], fields[1] ]]
+            # gdf = gdf[['h3_index','Score_v4']]
+            dataDict = {}
+            for row in gdf.itertuples():
+                dataDict[row[1]] = float(row[2])
+            json_obj = json.dumps(dataDict, indent=1)
+            with open(f'{splitNames[0]}.json', 'w') as outfile:
+                outfile.write(json_obj)
+            print(f'CONVERTED {fileName} TO {splitNames[0]}.json')
 
-    print(f'CONVERTED {fileName} TO {splitNames[0]}.{outFormat.lower()}')
+        else:
+            gdf = gpd.read_file(fileName)
+            gdf.to_file(f'{splitNames[0]}.{outFormat.lower()}', driver=drivers[outFormat])
+            print(f'CONVERTED {fileName} TO {splitNames[0]}.{outFormat.lower()}')
 
+
+### index, Score_str

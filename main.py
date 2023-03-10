@@ -2,35 +2,29 @@ import typer
 from h3Tools import *
 from map import foliumMap
 from rich import print
+from typing import Tuple
 
 app = typer.Typer()
 
 @app.command()
-def printStuff(info: str = typer.Argument(...)):
-    data = {
-    "name": "Rick",
-    "age": 42,
-    "items": [{"name": "Portal Gun"}, {"name": "Plumbus"}],
-    "active": True,
-    "affiliation": None,
-    }
-    print(f'Testing print with rich {data}')
-    print(data)
-
-@app.command()
 def convert(filename: str = typer.Argument(...), outformat: str = typer.Argument(...), 
-            raster: bool = False, h3input: bool = False):
+            special: str = '', fields: Tuple[str,str] = typer.Option((None,None))):
     """
     Convert from existing GeoData format to specified output format - 
-    Outformat options = ['geojson', 'gpkg', 'shapefile', 'flatgeobuf'] - 
-    Point geometry only supported for GPX - 
+    Outformat options = ['geojson', 'gpkg', 'shapefile', 'flatgeobuf', 'h3', 'filegdb'] - 
+    --special options ['h3input', 'gdbinput'] 
     Upper or lowercase
     """
-    geoConvertor(fileName=filename, outFormat=outformat, raster=raster, h3Input=h3input)
+    # print(fields[0])
+    geoConvertor(fileName=filename, outFormat=outformat, special=special, fields=fields)
 
 @app.command()
 def map(filename: str = typer.Argument(...), zoom: int=12, basemap: str = ''):
+    """
+    Shoot GeoJSON over to folium Map and open a new browser window
+    """
     foliumMap(filename=filename, zoom=zoom, basemap=basemap)
+    
 
 if __name__ == "__main__":
     app()
