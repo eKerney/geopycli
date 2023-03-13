@@ -1,0 +1,9 @@
+__pycache__/   
+/__pycache__
+*.geojson
+*.shp
+*.json
+.json
+.geojson
+pycli2/
+
