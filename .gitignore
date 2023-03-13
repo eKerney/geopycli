@@ -6,4 +6,6 @@ __pycache__/
 .json
 .geojson
 pycli2/
+/pycli2/
+
 
