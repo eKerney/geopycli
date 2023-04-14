@@ -78,8 +78,9 @@ export BROWSER='/mnt/c/Windows/explorer.exe'
 You may also want to add that line to your .bashrc file located in your home directory.   
 
 ---
-Sample map output:
-![[map.png|600]]
+Sample map output:   
+
+![](https://github.com/eKerney/geopycli/blob/32bebe172b2c6806370c2dc4f477ff36b6482768/map.png?raw=true)
 ---
 GeopyCLI is written in python, using the [Typer CLI](https://typer.tiangolo.com/typer-cli/) library and rich.  
 It utilizes [GeoPandas](https://geopandas.org/en/stable/index.html#) and H3 for the format conversions, and [folium](https://python-visualization.github.io/folium/) to generate maps. 
